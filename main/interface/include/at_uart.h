@@ -43,9 +43,9 @@
 #define AT_UART_TX_BUFFER_SIZE                      2048                    /**< uart tx buffer size */
 #define AT_UART_QUEUE_SIZE                          15                      /**< uart queue size */
 #else
-#define AT_UART_RX_BUFFER_SIZE                      1024*5                   /**< uart rx buffer size */
+#define AT_UART_RX_BUFFER_SIZE                      1024*8                   /**< uart rx buffer size */
 #define AT_UART_TX_BUFFER_SIZE                      1024*8                    /**< uart tx buffer size */
-#define AT_UART_QUEUE_SIZE                          30*3                      /**< uart queue size */
+#define AT_UART_QUEUE_SIZE                          100                      /**< uart queue size */
 #endif
 
 /**
